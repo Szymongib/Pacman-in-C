@@ -1,0 +1,42 @@
+﻿Build started 2017-02-02 08:55:10.
+     1>Project "E:\Projekt\Kanciasty_Pac-man\Kanciasty_Pac-man\Kanciasty_Pac-man.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TC /errorReport:prompt console.c gameMechanic.c ghostAi.c main.c mapCreation.c
+         mapCreation.c
+     1>mapCreation.c(34): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>mapCreation.c(37): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>mapCreation.c(40): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>mapCreation.c(44): warning C4013: 'getch' undefined; assuming extern returning int
+     1>mapCreation.c(218): warning C4101: 'color' : unreferenced local variable
+         main.c
+     1>main.c(46): warning C4113: 'DWORD (__cdecl *)()' differs in parameter lists from 'LPTHREAD_START_ROUTINE'
+     1>main.c(47): warning C4113: 'DWORD (__cdecl *)()' differs in parameter lists from 'LPTHREAD_START_ROUTINE'
+     1>main.c(52): warning C4047: '=' : 'char' differs in levels of indirection from 'void *'
+         ghostAi.c
+         gameMechanic.c
+     1>gameMechanic.c(8): warning C4244: 'function' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>gameMechanic.c(145): warning C4013: '_getch' undefined; assuming extern returning int
+         console.c
+     1>console.c(10): warning C4305: 'initializing' : truncation from 'int' to 'char'
+     1>console.c(48): warning C4047: '=' : 'char' differs in levels of indirection from 'void *'
+     1>console.c(120): warning C4047: 'function' : 'BOOL' differs in levels of indirection from 'void *'
+     1>console.c(120): warning C4024: 'SetCurrentConsoleFontEx' : different types for formal and actual parameter 2
+     1>console.c(145): warning C4013: 'getch' undefined; assuming extern returning int
+         Generating Code...
+     1>e:\projekt\kanciasty_pac-man\kanciasty_pac-man\gamemechanic.c(45): warning C4716: 'move' : must return a value
+     1>e:\projekt\kanciasty_pac-man\kanciasty_pac-man\gamemechanic.c(208): warning C4715: 'userInput' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Projekt\Kanciasty_Pac-man\x64\Debug\Kanciasty_Pac-man.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Projekt\Kanciasty_Pac-man\x64\Debug\Kanciasty_Pac-man.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Projekt\Kanciasty_Pac-man\x64\Debug\Kanciasty_Pac-man.lib" /MACHINE:X64 x64\Debug\console.obj
+         x64\Debug\gameMechanic.obj
+         x64\Debug\ghostAi.obj
+         x64\Debug\main.obj
+         x64\Debug\mapCreation.obj
+         Kanciasty_Pac-man.vcxproj -> E:\Projekt\Kanciasty_Pac-man\x64\Debug\Kanciasty_Pac-man.exe
+     1>Done Building Project "E:\Projekt\Kanciasty_Pac-man\Kanciasty_Pac-man\Kanciasty_Pac-man.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.46

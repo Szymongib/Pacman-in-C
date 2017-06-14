@@ -1,0 +1,13 @@
+﻿  console.c
+console.c(48): warning C4047: '=': 'char' differs in levels of indirection from 'void *'
+console.c(10): warning C4305: 'initializing': truncation from 'int' to 'char'
+console.c(120): warning C4047: 'function': 'BOOL' differs in levels of indirection from 'void *'
+console.c(120): warning C4024: 'SetCurrentConsoleFontEx': different types for formal and actual parameter 2
+console.c(145): warning C4013: 'getch' undefined; assuming extern returning int
+  Generating code
+  2 of 48 functions ( 4.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Kanciasty_Pac-man.vcxproj -> C:\Users\Szymon\Desktop\Kanciasty_Pac-man\Release\Kanciasty_Pac-man.exe
+  Kanciasty_Pac-man.vcxproj -> C:\Users\Szymon\Desktop\Kanciasty_Pac-man\Release\Kanciasty_Pac-man.pdb (Full PDB)

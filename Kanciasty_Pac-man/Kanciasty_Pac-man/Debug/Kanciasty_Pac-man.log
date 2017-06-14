@@ -1,0 +1,30 @@
+﻿  mapCreation.c
+c:\users\szymon\desktop\kanciasty_pac-man\kanciasty_pac-man\mapcreation.c(44): warning C4013: niezdefiniowany "getch"; przy założeniu, że extern zwraca int
+c:\users\szymon\desktop\kanciasty_pac-man\kanciasty_pac-man\mapcreation.c(34): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(207): note: zobacz deklarację „fopen”
+c:\users\szymon\desktop\kanciasty_pac-man\kanciasty_pac-man\mapcreation.c(37): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(207): note: zobacz deklarację „fopen”
+c:\users\szymon\desktop\kanciasty_pac-man\kanciasty_pac-man\mapcreation.c(40): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(207): note: zobacz deklarację „fopen”
+c:\users\szymon\desktop\kanciasty_pac-man\kanciasty_pac-man\mapcreation.c(218): warning C4101: "color": lokalna zmienna, do której nie istnieje odwołanie
+  main.c
+c:\users\szymon\desktop\kanciasty_pac-man\kanciasty_pac-man\main.c(46): warning C4113: "DWORD (__stdcall *)()" różni się listami parametrów od "LPTHREAD_START_ROUTINE"
+c:\users\szymon\desktop\kanciasty_pac-man\kanciasty_pac-man\main.c(47): warning C4113: "DWORD (__stdcall *)()" różni się listami parametrów od "LPTHREAD_START_ROUTINE"
+c:\users\szymon\desktop\kanciasty_pac-man\kanciasty_pac-man\main.c(52): warning C4047: "=": "char" różni się w poziomach operatorów pośrednich od "void *"
+c:\users\szymon\desktop\kanciasty_pac-man\kanciasty_pac-man\main.c(61): warning C4276: "move": nie dostarczono prototypu; założono brak parametrów
+c:\users\szymon\desktop\kanciasty_pac-man\kanciasty_pac-man\main.c(61): warning C4276: "userInput": nie dostarczono prototypu; założono brak parametrów
+  ghostAi.c
+  gameMechanic.c
+c:\users\szymon\desktop\kanciasty_pac-man\kanciasty_pac-man\gamemechanic.c(8): warning C4244: "funkcja": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+c:\users\szymon\desktop\kanciasty_pac-man\kanciasty_pac-man\gamemechanic.c(145): warning C4013: niezdefiniowany "_getch"; przy założeniu, że extern zwraca int
+  console.c
+c:\users\szymon\desktop\kanciasty_pac-man\kanciasty_pac-man\console.c(48): warning C4047: "=": "char" różni się w poziomach operatorów pośrednich od "void *"
+c:\users\szymon\desktop\kanciasty_pac-man\kanciasty_pac-man\console.c(10): warning C4305: "inicjowanie": obcięcie z "int" do "char"
+c:\users\szymon\desktop\kanciasty_pac-man\kanciasty_pac-man\console.c(120): warning C4047: "funkcja": "BOOL" różni się w poziomach operatorów pośrednich od "void *"
+c:\users\szymon\desktop\kanciasty_pac-man\kanciasty_pac-man\console.c(120): warning C4024: "SetCurrentConsoleFontEx": różne typy dla formalnego i rzeczywistego parametru 2
+c:\users\szymon\desktop\kanciasty_pac-man\kanciasty_pac-man\console.c(145): warning C4013: niezdefiniowany "getch"; przy założeniu, że extern zwraca int
+  Generowanie kodu...
+c:\users\szymon\desktop\kanciasty_pac-man\kanciasty_pac-man\gamemechanic.c(45): warning C4716: "move": musi zwracać wartość
+c:\users\szymon\desktop\kanciasty_pac-man\kanciasty_pac-man\gamemechanic.c(208): warning C4715: "userInput”: niewszystkie ścieżki kodu zwracają wartość
+  Kanciasty_Pac-man.vcxproj -> C:\Users\Szymon\Desktop\Kanciasty_Pac-man\Debug\Kanciasty_Pac-man.exe
+  Kanciasty_Pac-man.vcxproj -> C:\Users\Szymon\Desktop\Kanciasty_Pac-man\Debug\Kanciasty_Pac-man.pdb (Partial PDB)
